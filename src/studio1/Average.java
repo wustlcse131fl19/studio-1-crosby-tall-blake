@@ -7,6 +7,6 @@ public class Average {
         ArgsProcessor ap = new ArgsProcessor(args);
         int n1 = ap.nextInt("Integer 1:");
         int n2 = ap.nextInt("Integer 2:");
-        System.out.println( (n1 + n2)/2.0);
+        System.out.println( (n1 + n2)/2.0 );
     }
 }
